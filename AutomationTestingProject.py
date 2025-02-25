@@ -25,7 +25,7 @@ def test_check_credit_balance(browser):
     time.sleep(5)
 
     # Input credit card number
-    browser.find_element(By.NAME, "card_number").send_keys("1234567890123456")
+    browser.find_element(By.NAME, "card_nmuber").send_keys("1234567890123456")
 
     # Click on Submit
     browser.find_element(By.NAME, "submit").click()
